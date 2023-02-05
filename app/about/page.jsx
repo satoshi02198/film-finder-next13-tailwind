@@ -1,3 +1,7 @@
-const About = () = {
-    return (<h1>hello world</h1>);
-};
+export default function About() {
+  return (
+    <div>
+      <h2>About page</h2>
+    </div>
+  );
+}
