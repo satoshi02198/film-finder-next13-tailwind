@@ -15,7 +15,7 @@ export default async function MOvieDetail({ params }) {
 
   return (
     <div className=" flex justify-center mt-7">
-      <div className="w-[90%] max-w-screen-lg flex flex-col items-center">
+      <div className="w-[95%] max-w-screen-lg flex flex-col items-center justify-center">
         <Image
           src={imagePath + res.backdrop_path}
           width={700}
