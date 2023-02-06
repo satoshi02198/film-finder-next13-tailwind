@@ -7,7 +7,7 @@ export default function Movie({ title, id, poster_path, relese_date }) {
     <div>
       <h1>{title}</h1>
       <h2>{relese_date}</h2>
-      <Link href={`/asff`}>
+      <Link href={`/${id}`}>
         <Image
           src={imagePath + poster_path}
           width={800}
