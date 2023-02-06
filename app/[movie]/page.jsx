@@ -11,7 +11,7 @@ export default async function MOvieDetail({ params }) {
   console.log(res);
 
   const p = "text-lg border-b-2 border-lime-900 my-2";
-  const h1 = "text-xl text-center font-bold";
+  const h1 = "text-xl text-center font-bold py-2";
 
   return (
     <div className=" flex justify-center mt-7">
@@ -23,7 +23,7 @@ export default async function MOvieDetail({ params }) {
           alt={res.title}
         />
         <p className="text-lg border-b-2 border-lime-900 my-2 ">Title</p>
-        <h1 className="text-xl text-center font-bold">{res.title}</h1>
+        <h1 className="text-xl text-center font-bold py-2">{res.title}</h1>
         <p className={p}>Release Date</p>
         <h1 className={h1}>{res.release_date}</h1>
         <p className={p}>Run Time</p>
