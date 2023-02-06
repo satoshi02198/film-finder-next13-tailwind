@@ -40,7 +40,7 @@ const GenreButtonFunc = ({ changeGenre, genreId }) => {
 
   return (
     <div className="flex justify-center">
-      <div className="flex space-x-2 space-y-2 justify-center items-center  flex-wrap max-w-screen-lg my-5">
+      <div className="flex space-x-2 justify-center items-center  flex-wrap max-w-screen-lg my-5">
         {renderButtons}
       </div>
     </div>
