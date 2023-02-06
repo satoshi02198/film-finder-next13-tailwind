@@ -37,7 +37,7 @@ export default async function MOvieDetail({ params }) {
           <Link
             href={`${res.homepage}`}
             target="_blank"
-            className=" text-center mb-5 mt-4 w-[60%] py-2.5 bg-zinc-500 font-medium text-lg leading-normal rounded-md shadow-md hover:bg-zinc-400 hover:shadow-lg fucus:bg-zinc-400 focus:ring-0 active:bg-zinc-600 active:shadow-xl transition duration-150 ease-in-out"
+            className=" text-center mb-5 mt-4 w-[60%] sm:w-[40%] py-2.5 bg-zinc-500 font-medium text-lg leading-normal rounded-md shadow-md hover:bg-zinc-400 hover:shadow-lg fucus:bg-zinc-400 focus:ring-0 active:bg-zinc-600 active:shadow-xl transition duration-150 ease-in-out"
           >
             <button>Official Site</button>
           </Link>
